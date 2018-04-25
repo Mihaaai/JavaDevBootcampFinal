@@ -12,7 +12,6 @@ public final class VehicleInfo {
     private VehicleInfo() {}
 
     private VehicleInfo(String id, String vehicleTypeName, String formulaTypeName, int age, long numberOfMiles, boolean isDiesel) {
-
         this.id = id;
         this.vehicleTypeName = vehicleTypeName;
         this.formulaTypeName = formulaTypeName;
@@ -22,7 +21,6 @@ public final class VehicleInfo {
     }
 
     public static Builder builder() {
-
         return new Builder();
     }
 
