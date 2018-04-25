@@ -6,7 +6,6 @@
 out
 
 # Excel tmp files
-
 ~*
 
 # Maven target folder
